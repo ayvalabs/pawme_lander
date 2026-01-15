@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "pawme-hero",
+      "description": "A cute AI companion robot named PawMe sitting on a modern living room floor.",
+      "imageUrl": "https://images.unsplash.com/photo-1559715541-d4fc97b8d6dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyb2JvdCUyMHBldHxlbnwwfHx8fDE3Njg0NjYxMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robot pet"
+    },
+    {
+      "id": "pawme-interaction",
+      "description": "A person petting the PawMe AI robot, which is responding with a happy expression on its screen.",
+      "imageUrl": "https://images.unsplash.com/photo-1743168189861-932f8ef46ba1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwZXR0aW5nJTIwcm9ib3R8ZW58MHx8fHwxNzY4NDY2MTMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "petting robot"
+    },
+    {
+      "id": "pawme-playing",
+      "description": "The PawMe robot chasing a small ball across a wooden floor.",
+      "imageUrl": "https://images.unsplash.com/photo-1767716134807-646b08712f6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyb2JvdCUyMHBsYXlpbmd8ZW58MHx8fHwxNzY4NDY2MTMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robot playing"
+    },
+    {
+      "id": "pawme-community",
+      "description": "A group of people collaborating on a computer, with code on the screen and a PawMe robot on the desk.",
+      "imageUrl": "https://images.unsplash.com/photo-1523251343397-9225e4cb6319?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxvcGVuJTIwc291cmNlfGVufDB8fHx8MTc2ODQ2NjEzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "open source"
+    }
+  ]
 }
