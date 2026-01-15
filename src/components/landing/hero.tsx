@@ -1,7 +1,8 @@
 'use client';
 
 import Image from 'next/image';
-import { useFormState, useFormStatus } from 'react-dom';
+import { useActionState } from 'react';
+import { useFormStatus } from 'react-dom';
 import { useEffect, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -28,7 +29,7 @@ function SubmitButton() {
 export function Hero() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'pawme-hero');
   const initialState: FormState = { message: '', success: false };
-  const [state, formAction] = useFormState(subscribeToNewsletter, initialState);
+  const [state, formAction] = useActionState(subscribeToNewsletter, initialState);
   const { toast } = useToast();
   const formRef = useRef<HTMLFormElement>(null);
 
