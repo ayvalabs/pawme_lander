@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { PawPrint, Twitter, Instagram, Facebook } from 'lucide-react';
+import { Twitter, Instagram, Facebook } from 'lucide-react';
+import { Logo } from '@/components/icons/logo';
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -8,7 +9,7 @@ export function Footer() {
     <footer className="border-t">
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 py-8 md:flex-row md:px-6">
         <div className="flex items-center gap-2">
-          <PawPrint className="h-6 w-6 text-primary" />
+          <Logo className="h-6 w-6 text-primary" />
           <span className="font-headline text-lg font-bold">
             PawMe AI Companion
           </span>

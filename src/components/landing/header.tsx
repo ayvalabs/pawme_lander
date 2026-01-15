@@ -1,6 +1,6 @@
 'use client';
 
-import { PawPrint } from 'lucide-react';
+import { Logo } from '@/components/icons/logo';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
@@ -26,7 +26,7 @@ export function Header() {
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2">
-          <PawPrint className="h-8 w-8 text-primary" />
+          <Logo className="h-8 w-8 text-primary" />
           <span className="font-headline text-2xl font-bold text-foreground">
             PawMe
           </span>
