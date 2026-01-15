@@ -1,4 +1,4 @@
-import { generateAIPoweredFeaturesList } from '@/ai/flows/generate-ai-powered-features-list';
+
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { BrainCircuit, Heart, Gamepad2, Zap, ToyBrick, Sparkles } from 'lucide-react';
 import { ScrollFadeIn } from '../scroll-fade-in';
@@ -16,8 +16,18 @@ function getIconForFeature(featureName: string) {
   return <Sparkles {...iconProps} />;
 }
 
-export async function Features() {
-  const { features } = await generateAIPoweredFeaturesList({ productName: "PawMe AI Companion" });
+const staticFeatures = [
+    { name: "Adaptive Personality", description: "PawMe's personality evolves based on your interactions, creating a unique bond." },
+    { name: "Continuous Learning", description: "It learns new tricks and understands your preferences over time." },
+    { name: "Emotional Empathy", description: "Responds to your tone of voice and expressions with lifelike emotions." },
+    { name: "Interactive Playtime", description: "Initiates games and activities, keeping both you and your pet engaged." },
+    { name: "Smart Routine Assistant", description: "Helps you stick to your pet's schedule for feeding, walks, and playtime." },
+    { name: "Skill Progression", description: "Unlocks new abilities and behaviors as it grows and learns with you." }
+];
+
+
+export function Features() {
+  const features = staticFeatures.map(f => `${f.name}: ${f.description}`);
 
   return (
     <section className="py-20 md:py-32">
