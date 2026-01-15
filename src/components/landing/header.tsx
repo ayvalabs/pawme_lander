@@ -26,10 +26,7 @@ export function Header() {
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2">
-          <Logo className="h-8 w-8 text-primary" />
-          <span className="font-headline text-2xl font-bold text-foreground">
-            PawMe
-          </span>
+          <Logo className="h-10 w-auto text-primary" />
         </Link>
         <Button asChild>
           <Link href="#signup">Get Notified</Link>
